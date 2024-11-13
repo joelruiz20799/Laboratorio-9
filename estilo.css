@@ -1,0 +1,37 @@
+/*Estilo al encabezado*/
+header{
+    background-color: red;
+    padding: 20px;
+    text-align: center;
+    color: black;
+}
+/*estilo para la barra de navegacion*/
+nav a{
+    color: blue;
+    text-decoration: rgb(255, 174, 0);
+    font-weight: bold;
+}
+nav a:hover{
+    color: red;
+}
+/*estilo para la seccion principal*/
+.contenedor{
+    width: 90%;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: blueviolet;
+    border-radius: 8px;
+    box-shadow: 0 0 10px red(68, 0 ,255);
+}
+.contenedor{
+    color: aquamarine;
+    font-size: 16px;
+    line-height: 1.6;
+}
+/*Estilo pie de pagina*/
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
